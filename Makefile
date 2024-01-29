@@ -6,13 +6,13 @@
 #    By: ffebbrar <ffebbrar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/23 14:39:54 by ffebbrar          #+#    #+#              #
-#    Updated: 2024/01/27 19:07:11 by ffebbrar         ###   ########.fr        #
+#    Updated: 2024/01/27 19:20:57 by ffebbrar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
-SRC = ft_prinf_p.c ft_printf_esa.c ft_printf_fun.c ft_printf_u.c ft_printf.c
+SRC = ft_printf_p.c ft_printf_esa.c ft_printf_fun.c ft_printf_u.c ft_printf.c
 AR = ar
 OBJ = $(SRC:.c=.o)
 CC = gcc

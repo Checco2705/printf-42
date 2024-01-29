@@ -6,35 +6,11 @@
 /*   By: ffebbrar <ffebbrar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 15:36:35 by ffebbrar          #+#    #+#             */
-/*   Updated: 2024/01/27 18:59:16 by ffebbrar         ###   ########.fr       */
+/*   Updated: 2024/01/29 14:30:05 by ffebbrar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
-}
-
-int	ft_putstr(char *str)
-{
-	int	len;
-
-	if (!str)
-	{
-		write (1, "(null)", 6);
-		return (6);
-	}
-	len = ft_strlen(str);
-	write (1, str, len);
-	return (len);
-}
 
 int	ft_len_num(unsigned int n)
 {
